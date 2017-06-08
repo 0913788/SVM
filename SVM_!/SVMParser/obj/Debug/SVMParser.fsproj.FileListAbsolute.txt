@@ -1,0 +1,17 @@
+C:\Users\ricardo\Source\Repos\INFDEV02-8-Functional-Programming-\SVM\SVMParser\bin\Debug\Programs\ifthenelse.svm
+C:\Users\ricardo\Source\Repos\INFDEV02-8-Functional-Programming-\SVM\SVMParser\bin\Debug\Programs\initList.svm
+C:\Users\ricardo\Source\Repos\INFDEV02-8-Functional-Programming-\SVM\SVMParser\bin\Debug\Programs\sumList.svm
+C:\Users\ricardo\Source\Repos\INFDEV02-8-Functional-Programming-\SVM\SVMParser\bin\Debug\Programs\squareRoot.svm
+C:\Users\ricardo\Source\Repos\INFDEV02-8-Functional-Programming-\SVM\SVMParser\bin\Debug\SVMParser.dll.config
+C:\Users\ricardo\Source\Repos\INFDEV02-8-Functional-Programming-\SVM\SVMParser\bin\Debug\SVMParser.XML
+C:\Users\ricardo\Source\Repos\INFDEV02-8-Functional-Programming-\SVM\SVMParser\bin\Debug\SVMParser.dll
+C:\Users\ricardo\Source\Repos\INFDEV02-8-Functional-Programming-\SVM\SVMParser\bin\Debug\SVMParser.pdb
+C:\Users\ricardo\Source\Repos\INFDEV02-8-Functional-Programming-\SVM\SVMParser\bin\Debug\FSharp.Core.dll
+C:\Users\ricardo\Source\Repos\INFDEV02-8-Functional-Programming-\SVM\SVMParser\bin\Debug\FsLexYacc.Runtime.dll
+C:\Users\ricardo\Source\Repos\INFDEV02-8-Functional-Programming-\SVM\SVMParser\bin\Debug\Programs.dll
+C:\Users\ricardo\Source\Repos\INFDEV02-8-Functional-Programming-\SVM\SVMParser\bin\Debug\Programs.pdb
+C:\Users\ricardo\Source\Repos\INFDEV02-8-Functional-Programming-\SVM\SVMParser\bin\Debug\FSharp.Core.xml
+C:\Users\ricardo\Source\Repos\INFDEV02-8-Functional-Programming-\SVM\SVMParser\bin\Debug\FsLexYacc.Runtime.xml
+C:\Users\ricardo\Source\Repos\INFDEV02-8-Functional-Programming-\SVM\SVMParser\obj\Debug\SVMParser.fsprojResolveAssemblyReference.cache
+C:\Users\ricardo\Source\Repos\INFDEV02-8-Functional-Programming-\SVM\SVMParser\obj\Debug\SVMParser.dll
+C:\Users\ricardo\Source\Repos\INFDEV02-8-Functional-Programming-\SVM\SVMParser\obj\Debug\SVMParser.pdb
