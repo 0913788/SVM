@@ -62,8 +62,8 @@
     <Compile Include="AssemblyInfo.fs" />
     <None Include="App.config" />
     <Content Include="packages.config" />
-    <Compile Include="Structure.fs" />
     <Compile Include="ErrorChecker.fs" />
+    <Compile Include="Structure.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
   <ItemGroup>

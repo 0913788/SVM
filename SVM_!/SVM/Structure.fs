@@ -1,6 +1,8 @@
 ﻿
 module Structure
 open SVMAST
+open ErrorChecker
+
 type SVMState =
     {
         ProgramCounter : int
@@ -42,10 +44,27 @@ let IncreasePC state =
 
 let PrintCurrentState state = 
     let CLS = System.Console.Clear()
-    let printMemory =
+    let printableMemory =
         state.MemoryPool
         |> List.mapi(fun index memCell -> index, memCell)
         |> List.groupBy (fun (index, _) -> index/10)
-        |> List.map (fun (_, index) -> index)
-    //do CLS
-    printfn "%A" printMemory
+        |> List.map (fun (_, memCellInfo) -> memCellInfo)
+    do CLS
+    printfn "%A" printableMemory
+
+let setLabels program =
+    let labels =
+        program
+        |> List.mapi(fun index instruction -> index, instruction)
+
+        |> List.filter(fun (index, instruction) -> match instruction with
+                                                         |Label(x,y) -> true
+                                                         |_ -> false)
+
+        |>List.map(fun(index, instruction) -> index, match instruction with 
+                                                           |Label(name,_) -> name
+                                                           |_ -> failwith "error")
+
+    LabelCheck labels
+    labels
+                                                

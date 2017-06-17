@@ -14,27 +14,15 @@ let parseFile (fileName : string) =
   let parsedAST = Parser.start Lexer.tokenstream lexbuf
   parsedAST
 
-let Check _type =
-    match _type with
-    | Integer(x, y) -> printfn "integer"
-    | Float(x,y) -> printfn "float"
-    | String(x,y) -> printfn "string"
-    | Address(x)  -> printfn "address"
-    | Register(x,y) -> printfn "register"
-
 [<EntryPoint>]
 let main argv =
   System.Threading.Thread.CurrentThread.CurrentCulture <- CultureInfo.InvariantCulture;
   try
     if argv.Length = 2 then
       let ast = parseFile argv.[0]
+      let x = setLabels ast
       let state = CreateNewSVM (int argv.[1])      
-      let z = {state with MemoryPool = UpdateMemoryValue state 5 (Some(Integer(1,(1,1))))}
-      let b = IncreasePC z
-      printfn "%A" b
-      printfn "%A" ast
-
-      PrintCurrentState b
+      do PrintCurrentState state
       let x = System.Console.ReadLine();   
       0
     else
