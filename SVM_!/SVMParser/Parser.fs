@@ -78,7 +78,6 @@ type tokenId =
     | TOKEN_INT
     | TOKEN_end_of_input
     | TOKEN_error
-
 // This type is used to give symbolic names to token indexes, useful for error messages
 type nonTerminalId = 
     | NONTERM__startstart
