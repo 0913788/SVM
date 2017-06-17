@@ -49,8 +49,18 @@ let PrintCurrentState state =
         |> List.mapi(fun index memCell -> index, memCell)
         |> List.groupBy (fun (index, _) -> index/10)
         |> List.map (fun (_, memCellInfo) -> memCellInfo)
+    let printableRegs = 
+               let regs = [state.Register1; state.Register2; state.Register3; state.Register4]
+               regs
+               |> List.mapi(fun index register -> (index+1, if register.IsSome then Some(register.Value)
+                                                            else None))
     do CLS
+    printfn "Memory"
+    printfn "|===========================|"
     printfn "%A" printableMemory
+    printfn "Register"
+    printfn "|===========================|"
+    printfn "%A" printableRegs
 
 let setLabels program =
     let labels =
