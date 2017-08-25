@@ -16,3 +16,12 @@ C:\Users\Ricardo\Desktop\SVM_!\Programs\bin\Debug\Programs.pdb
 C:\Users\Ricardo\Desktop\SVM_!\Programs\obj\Debug\Programs.csprojResolveAssemblyReference.cache
 C:\Users\Ricardo\Desktop\SVM_!\Programs\obj\Debug\Programs.dll
 C:\Users\Ricardo\Desktop\SVM_!\Programs\obj\Debug\Programs.pdb
+C:\Users\Ricardo\Source\Repos\SVM\SVM_!\Programs\bin\Debug\Programs\ifthenelse.svm
+C:\Users\Ricardo\Source\Repos\SVM\SVM_!\Programs\bin\Debug\Programs\initList.svm
+C:\Users\Ricardo\Source\Repos\SVM\SVM_!\Programs\bin\Debug\Programs\sumList.svm
+C:\Users\Ricardo\Source\Repos\SVM\SVM_!\Programs\bin\Debug\Programs\squareRoot.svm
+C:\Users\Ricardo\Source\Repos\SVM\SVM_!\Programs\bin\Debug\Programs.dll
+C:\Users\Ricardo\Source\Repos\SVM\SVM_!\Programs\bin\Debug\Programs.pdb
+C:\Users\Ricardo\Source\Repos\SVM\SVM_!\Programs\obj\Debug\Programs.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo\Source\Repos\SVM\SVM_!\Programs\obj\Debug\Programs.dll
+C:\Users\Ricardo\Source\Repos\SVM\SVM_!\Programs\obj\Debug\Programs.pdb

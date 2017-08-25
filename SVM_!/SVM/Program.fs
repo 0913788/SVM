@@ -14,15 +14,19 @@ let parseFile (fileName : string) =
   let parsedAST = Parser.start Lexer.tokenstream lexbuf
   parsedAST
 
+let Run SVMState ast =
+    let labels = SetLabels ast
+    labels
+    |>List.iter(fun x -> printfn "%A" x)
+    labels        
+        
+
 [<EntryPoint>]
 let main argv =
   System.Threading.Thread.CurrentThread.CurrentCulture <- CultureInfo.InvariantCulture;
   try
     if argv.Length = 2 then
-      let ast = parseFile argv.[0]
-      let x = setLabels ast
-      let state = CreateNewSVM (int argv.[1])      
-      do PrintCurrentState state
+      do Run CreateNewSVM argv.[1] parseFile argv.[0]   
       let x = System.Console.ReadLine();   
       0
     else
